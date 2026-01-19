@@ -17,6 +17,6 @@ Then initialize with:
 origo.on('load', urlzoomtolayer());
 ```
 
-Zoomar till lagret angiven i url-parametern zoomToLayer. Lagret måste finnas i kartan och tänds automatiskt. För att zooma till markers sätt zoomToLayer=markerLayer (obs! denna plugin måste läggas efter den/de plugins som skapar markers).
+Zoomar till lagret angiven i url-parametern zoomToLayer. Lagret måste finnas i kartan och tänds automatiskt. För att fungera med WMS-lager behöver dessa ha ett fördefinierat extent. För att zooma till markers sätt zoomToLayer=markerLayer (obs! denna plugin måste läggas efter den/de plugins som skapar markers).
 
 [https://kartor.kristianstad.se/kristianstadskartan/?zoomToLayer=evenemang](https://kartor.kristianstad.se/kristianstadskartan/?zoomToLayer=evenemang)
